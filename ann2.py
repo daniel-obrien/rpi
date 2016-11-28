@@ -12,9 +12,9 @@ GPIO.setup(27,GPIO.OUT) #sets pin 27 up
 GPIO.setup(22,GPIO.OUT) #sets pin 22 up
 
 GPIO.output(27, GPIO.HIGH) #runs pin 4 at high
-GPIO.output(22, GPIO.HIGH) #runs pin 4 at high
+GPIO.output(22, GPIO.LOW) #runs pin 4 at high
 GPIO.output(23, GPIO.HIGH) #runs pin 4 at high
-GPIO.output(24, GPIO.HIGH) #runs pin 4 at high
+GPIO.output(24, GPIO.LOW) #runs pin 4 at high
 
 sleep(3)
 
