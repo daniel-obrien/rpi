@@ -16,7 +16,7 @@ GPIO.output(22, GPIO.LOW) #runs pin 4 at high
 GPIO.output(23, GPIO.HIGH) #runs pin 4 at high
 GPIO.output(24, GPIO.LOW) #runs pin 4 at high
 
-sleep(3)
+sleep(30)
 
 GPIO.cleanup()        #stops all signals to pins
 
